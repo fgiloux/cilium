@@ -141,7 +141,6 @@ const (
 	DaemonName             = "cilium"
 	CiliumBugtool          = "cilium-bugtool"
 	CiliumBugtoolArgs      = "--exclude-object-files"
-	CiliumDockerDaemonName = "cilium-docker"
 
 	KubectlDelete = ResourceLifeCycleAction("delete")
 	KubectlApply  = ResourceLifeCycleAction("apply")
